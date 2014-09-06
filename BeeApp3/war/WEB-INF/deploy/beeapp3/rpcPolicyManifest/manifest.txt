@@ -1,0 +1,3 @@
+# Module beeapp3
+# RPC service class, partial path of RPC policy file
+com.google.swt.BeeApp3.client.Api, 797939611338214FD031E1382693C931.gwt.rpc
