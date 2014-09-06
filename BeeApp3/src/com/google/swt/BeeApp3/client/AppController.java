@@ -1,5 +1,7 @@
 package com.google.swt.BeeApp3.client;
 
+import org.apache.http.impl.client.AIMDBackoffManager;
+
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
@@ -26,6 +28,7 @@ import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveAddEventHandler;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEventHandler;
+import com.google.swt.BeeApp3.client.view.ApiaryView;
 import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.client.view.HiveView;
 import com.google.swt.BeeApp3.client.view.LocationTab;
@@ -88,7 +91,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 
 		this.colony = new HiveView();
 		this.company = new HiveView();
-		this.apiary =  new HiveView();
+		this.apiary =  new ApiaryView();
 		this.dashboard = new HiveView();
 		this.other = new HiveView();
 		

@@ -47,7 +47,7 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		hPanel.setBorderWidth(0);
 		hPanel.setSpacing(0);
 		hPanel.setHorizontalAlignment(HorizontalPanel.ALIGN_LEFT);
-		addButton = new Button("Add");
+		addButton = new Button("Add123");
 		hPanel.add(addButton);
 		deleteButton = new Button("Delete");
 		hPanel.add(deleteButton);
