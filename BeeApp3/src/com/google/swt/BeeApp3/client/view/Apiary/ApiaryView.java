@@ -1,4 +1,4 @@
-package com.google.swt.BeeApp3.client.view;
+package com.google.swt.BeeApp3.client.view.Apiary;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,7 @@ import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HTMLTable;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.swt.BeeApp3.client.Presenter.HivePresenter;
 
@@ -29,7 +30,7 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 	public ApiaryView()
 	{
 		DecoratorPanel contentTableDecorator = new DecoratorPanel();
-		initWidget(contentTableDecorator);
+		//initWidget(contentTableDecorator);
 		contentTableDecorator.setWidth("100%");
 		contentTableDecorator.setWidth("18em");
 
@@ -65,6 +66,25 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		contentTable.setWidget(1, 0, contactsTable);
 
 		contentTableDecorator.add(contentTable);
+		
+		DecoratorPanel dp1 = this.initApiaryMenu();
+		dp1.add(contentTable);
+		
+		//WidgetContainer c1 = new WidgetContainer("Title", contentTable);
+		
+		
+		
+		initWidget(dp1);
+	}
+	
+	private DecoratorPanel initApiaryMenu()
+	{
+		DecoratorPanel dp = new DecoratorPanel();
+		dp.setTitle("Actions");
+		dp.add(new Label("Create Apiary"));
+		dp.add(new Label("View Apiary"));
+		dp.add(new Label("Enter Visit Notes"));
+		return dp;
 	}
 
 	@Override

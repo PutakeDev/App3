@@ -28,11 +28,11 @@ import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveAddEventHandler;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEventHandler;
-import com.google.swt.BeeApp3.client.view.ApiaryView;
 import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.client.view.HiveView;
 import com.google.swt.BeeApp3.client.view.LocationTab;
 import com.google.swt.BeeApp3.client.view.LocationView;
+import com.google.swt.BeeApp3.client.view.Apiary.ApiaryView;
 import com.google.swt.BeeApp3.shared.model.Hive;
 
 public class AppController implements Presenter, ValueChangeHandler<String>
