@@ -1,4 +1,4 @@
-package com.google.swt.BeeApp3.client.view;
+package com.google.swt.BeeApp3.client.view.Location;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 
-public class LocationView extends Composite implements
+public class LocationViewOld extends Composite implements
 		LocationPresenter.Display
 {
 	private final Button addButton;
@@ -27,7 +27,7 @@ public class LocationView extends Composite implements
 	private final FlexTable contentTable;
 	private final Button deleteButton;
 
-	public LocationView()
+	public LocationViewOld()
 	{
 		DecoratorPanel contentTableDecorator = new DecoratorPanel();
 		initWidget(contentTableDecorator);

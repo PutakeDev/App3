@@ -385,3 +385,1502 @@ Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveView_BinderImpl_designTime
       Compiling...
          Compilation completed in 0.01 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2798 units from cache.
+Compiling...
+   20% complete (ETR: 17 seconds)
+   20% complete (ETR: 17 seconds)
+   20% complete (ETR: 17 seconds)
+   30% complete (ETR: 16 seconds)
+   40% complete (ETR: 14 seconds)
+   50% complete (ETR: 12 seconds)
+   60% complete (ETR: 10 seconds)
+   70% complete (ETR: 8 seconds)
+   80% complete (ETR: 5 seconds)
+   90% complete (ETR: 3 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 28.84 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.10 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410661702253_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410661703091_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662364738_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662368483_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662374017_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662376163_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662394536_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662396987_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662409473_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662411590_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662415505_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662436423_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662446198_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662453023_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662519277.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662519277.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662519277_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662520601_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738598.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738598.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738598_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738777.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738777.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662738777_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831052.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831052.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831052_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831321.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831321.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662831321_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662884566.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662884566.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662884566_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968329.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968329.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968329_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968514.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968514.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410662968514_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2798 cached/archived units.  Used 2798 / 2798 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663020209.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663020209.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663020209_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663021425.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663021425.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663021425_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2798 cached/archived units.  Used 2798 / 2798 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663048985.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663048985.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663048985_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663049847.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663049847.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663049847_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2798 cached/archived units.  Used 2798 / 2798 units from cache.
+Compiling...
+   Compilation completed in 0.10 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663066805.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663066805.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663066805_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663068441.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663068441.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663068441_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663076361.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663076361.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663076361_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2798 cached/archived units.  Used 2798 / 2798 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663092871.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663092871.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663092871_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663093609.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663093609.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663093609_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663113319.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663113319.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663113319_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method buttonCellBaseBackground
+         Adding image 'com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources.buttonCellBaseBackground'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+         Generating method body for iconContentLayout()
+         Generating method body for iconWrapper()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663124385.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663124385.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663124385_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663168281.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663168281.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663168281_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663182603.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663182603.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663182603_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663187888.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663187888.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663187888_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.11 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663193260.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663193260.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663193260_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663196786.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663196786.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663196786_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663199326.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663199326.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663199326_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229161.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229161.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229161_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229405.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229405.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663229405_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243368.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243368.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243368_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243598.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243598.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663243598_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663295931.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663295931.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663295931_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663304990.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663304990.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663304990_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.09 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663358661.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663358661.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663358661_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663359055.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663359055.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663359055_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663367032.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663367032.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663367032_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663387450.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663387450.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663387450_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663390566.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663390566.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663390566_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663396646.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663396646.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663396646_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663432940.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663432940.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663432940_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663437409.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663437409.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663437409_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663448706.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663448706.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663448706_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663457344.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663457344.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663457344_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663485341.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663485341.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663485341_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663495922.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663495922.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663495922_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663515975.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663515975.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663515975_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663536978.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663536978.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663536978_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2797 cached/archived units.  Used 2797 / 2798 units from cache.
+Compiling...
+   Compilation completed in 0.03 seconds
+Invalid Unit: com.google.swt.BeeApp3.client.AppController
+Invalid units found: 1
+Compiling...
+   Compilation completed in 0.04 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 65: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.18 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663700806.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663700806.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663700806_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663701392.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663701392.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663701392_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663718936.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663718936.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410663718936_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView.Binder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410664484136.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410664484136.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+         Generating method body for html4()
+         Generating method body for html5()
+         Generating method body for html6()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Hive.HiveMainView_BinderImpl_designTime1410664484136_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   10% complete (ETR: 37 seconds)
+   10% complete (ETR: 37 seconds)
+   20% complete (ETR: 25 seconds)
+   30% complete (ETR: 18 seconds)
+   40% complete (ETR: 13 seconds)
+   50% complete (ETR: 10 seconds)
+   60% complete (ETR: 7 seconds)
+   70% complete (ETR: 5 seconds)
+   80% complete (ETR: 3 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 19.23 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes

@@ -1,4 +1,4 @@
-package com.google.swt.BeeApp3.client.view.Hive;
+package com.google.swt.BeeApp3.client.view.Location;
 
 import java.util.List;
 
@@ -18,7 +18,7 @@ import com.google.gwt.widget.client.TextButton;
 import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.ui.ListBox;
 
-public class HiveMainView extends Composite implements HivePresenter.Display
+public class LocationView extends Composite implements HivePresenter.Display
 {
 
 	private static final Binder binder = GWT.create(Binder.class);
@@ -30,14 +30,13 @@ public class HiveMainView extends Composite implements HivePresenter.Display
 	@UiField ListBox LocationList;
 	@UiField ListBox HiveList;
 
-	interface Binder extends UiBinder<Widget, HiveMainView>
+	interface Binder extends UiBinder<Widget, LocationView>
 	{
+		
 	}
 
-	public HiveMainView()
+	public LocationView()
 	{
-		
-		
 		initWidget(binder.createAndBindUi(this));
 	}
 
@@ -108,11 +107,11 @@ public class HiveMainView extends Composite implements HivePresenter.Display
 	@Override
 	public void setData(List<String> data)
 	{
-		this.HiveList.clear();
+		this.LocationList.clear();
 		
 		for (int i = 0; i < data.size(); ++i)
 		{
-			this.HiveList.addItem(data.get(i));
+			this.LocationList.addItem(data.get(i));
 		}
 	}
 

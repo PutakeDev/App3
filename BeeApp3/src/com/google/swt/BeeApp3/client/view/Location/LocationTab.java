@@ -1,4 +1,4 @@
-package com.google.swt.BeeApp3.client.view;
+package com.google.swt.BeeApp3.client.view.Location;
 
 import java.util.ArrayList;
 import java.util.List;

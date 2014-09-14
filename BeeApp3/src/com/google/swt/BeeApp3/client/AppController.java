@@ -26,8 +26,6 @@ import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 import com.google.swt.BeeApp3.client.Presenter.Presenter;
 import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.client.view.HiveView;
-import com.google.swt.BeeApp3.client.view.LocationTab;
-import com.google.swt.BeeApp3.client.view.LocationView;
 import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveAddEventHandler;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
@@ -35,6 +33,9 @@ import com.google.swt.BeeApp3.client.event.HiveUpdatedEventHandler;
 import com.google.swt.BeeApp3.client.view.Apiary.ApiaryView;
 import com.google.swt.BeeApp3.client.view.Apiary.SampleViewImpl;
 import com.google.swt.BeeApp3.client.view.Hive.HiveMainView;
+import com.google.swt.BeeApp3.client.view.Location.LocationTab;
+import com.google.swt.BeeApp3.client.view.Location.LocationView;
+import com.google.swt.BeeApp3.client.view.Location.LocationViewOld;
 import com.google.swt.BeeApp3.shared.model.Hive;
 
 public class AppController implements Presenter, ValueChangeHandler<String>
@@ -49,6 +50,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 	private Composite colony;
 	private Composite dashboard;
 	private Composite other;
+	private Composite location;
 	private TabLayoutPanel tabPanel;
 
 	public AppController(ApiAsync hiveApi, HandlerManager eventBus)
@@ -96,13 +98,14 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		this.apiary =  new ApiaryView();
 		this.dashboard = new HiveView();
 		this.other = new SampleViewImpl();
+		this.location = new LocationView();
 		
 		this.hive = new HiveMainView();
 		
 		
 		tabPanel.add(this.dashboard,"Dashboard");
 		tabPanel.add(this.company,"Company");
-		tabPanel.add(this.company,"Company");
+		tabPanel.add(this.location,"Location");
 		tabPanel.add(this.apiary,"Apiary");
 		tabPanel.add(this.hive,"Hive");
 		tabPanel.add(this.colony,"Colony");
@@ -125,6 +128,10 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		RootLayoutPanel.get().clear();
 		RootLayoutPanel.get().add(tabPanel);
 
+		
+	
+		
+		
 	}
 
 	private void doAddNewHive()
@@ -170,7 +177,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 			if (token.equals("location1"))
 			{
 				presenter = new LocationPresenter(hiveApi, eventBus,
-						new LocationView());
+						new LocationViewOld());
 			}
 			if (token.equals("location2"))
 			{
