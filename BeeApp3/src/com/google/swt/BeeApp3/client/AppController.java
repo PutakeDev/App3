@@ -34,7 +34,7 @@ import com.google.swt.BeeApp3.client.view.Apiary.ApiaryView;
 import com.google.swt.BeeApp3.client.view.Apiary.SampleViewImpl;
 import com.google.swt.BeeApp3.client.view.Hive.HiveMainView;
 import com.google.swt.BeeApp3.client.view.Location.LocationTab;
-import com.google.swt.BeeApp3.client.view.Location.LocationView;
+import com.google.swt.BeeApp3.client.view.Location.LocationViewImpl;
 import com.google.swt.BeeApp3.client.view.Location.LocationViewOld;
 import com.google.swt.BeeApp3.shared.model.Hive;
 
@@ -98,7 +98,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		this.apiary =  new ApiaryView();
 		this.dashboard = new HiveView();
 		this.other = new SampleViewImpl();
-		this.location = new LocationView();
+		this.location = new LocationViewImpl();
 		
 		this.hive = new HiveMainView();
 		

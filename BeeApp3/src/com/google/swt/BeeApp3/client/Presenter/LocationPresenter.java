@@ -19,10 +19,11 @@ import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveEditEvent;
 import com.google.swt.BeeApp3.client.event.LocationAddEvent;
 import com.google.swt.BeeApp3.client.event.LocationEditEvent;
+import com.google.swt.BeeApp3.client.view.Location.LocationView;
 import com.google.swt.BeeApp3.shared.model.Hive;
 import com.google.swt.BeeApp3.shared.model.Location;
 
-public class LocationPresenter implements Presenter
+public class LocationPresenter implements Presenter, LocationView.Presenter
 {
 	public interface Display extends HasValue<List<String>>
 	{
@@ -30,15 +31,6 @@ public class LocationPresenter implements Presenter
 
 		HasClickHandlers getAddButton();
 
-		int getClickedRow(ClickEvent event);
-
-		HasClickHandlers getDeleteButton();
-
-		HasClickHandlers getList();
-
-		List<Integer> getSelectedRows();
-
-		void setData(List<String> data);
 	}
 
 	private final ApiAsync api;
@@ -58,60 +50,13 @@ public class LocationPresenter implements Presenter
 
 	public void bind()
 	{
-		display.getAddButton().addClickHandler(new ClickHandler()
-		{
-			public void onClick(ClickEvent event)
-			{
-				eventBus.fireEvent(new LocationAddEvent());
-			}
-		});
-
-		display.getDeleteButton().addClickHandler(new ClickHandler()
-		{
-			public void onClick(ClickEvent event)
-			{
-				// deleteSelectedContacts();
-				// TODO implement
-			}
-		});
-
-		display.getList().addClickHandler(new ClickHandler()
-		{
-			public void onClick(ClickEvent event)
-			{
-				int selectedRow = display.getClickedRow(event);
-
-				if (selectedRow >= 0)
-				{
-					String id = locations[selectedRow].getId();
-					eventBus.fireEvent(new LocationEditEvent(id));
-				}
-			}
-		});
-	}
-
-	private void fetchLocationDetails()
-	{
-		api.getLocationList(new AsyncCallback<Location[]>()
-		{
-			public void onFailure(Throwable caught)
-			{
-				Window.alert("Error fetching location details");
-			}
-
-			public void onSuccess(Location[] result)
-			{
-				locations = result;
-				List<String> data = new ArrayList<String>();
-
-				for (int i = 0; i < result.length; ++i)
-				{
-					data.add(locations[i].getDisplayName());
-				}
-
-				display.setData(data);
-			}
-		});
+	//	display.getAddButton().addClickHandler(new ClickHandler()
+	//	{
+	//		public void onClick(ClickEvent event)
+	//		{
+	//			eventBus.fireEvent(new LocationAddEvent());
+	//		}
+	//	});
 	}
 
 	@Override
@@ -120,8 +65,47 @@ public class LocationPresenter implements Presenter
 		bind();
 		container.clear();
 		container.add(display.asWidget());
-		fetchLocationDetails();
+	}
 
+	@Override
+	public void onAddButtonClicked(Location l)
+	{
+		
+		api.addNewLocation(l,  new AsyncCallback<String>()
+		{
+			public void onFailure(Throwable caught)
+			{
+			}
+
+			public void onSuccess(String result)
+			{
+				//setStatusLabelText("Location added");
+				
+			}
+		});
+		eventBus.fireEvent(new LocationAddEvent());
+		
+	}
+
+	@Override
+	public void onDeleteButtonClicked()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onItemClicked(Object clickedItem)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onItemSelected(Object selectedItem)
+	{
+		// TODO Auto-generated method stub
+		
 	}
 
 }

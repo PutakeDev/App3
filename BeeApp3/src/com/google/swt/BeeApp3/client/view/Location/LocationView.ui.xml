@@ -10,16 +10,12 @@
 	<g:FlowPanel styleName="{style.panel}">
 		<g:VerticalPanel height="186px" width="427px">
 			<g:Label text="New Label"/>
-			<g:Label text="New Label"/>
+			<g:Label text="New Label" ui:field="statusLabel"/>
 			<g:HorizontalPanel height="51px" width="413px">
 				<g:CaptionPanel captionText="Hives" >
 					<g:VerticalPanel>
-						<g:Hyperlink text="View Hives" targetHistoryToken="newHistoryToken"/>
-						<g:Hyperlink text="Create Hive" targetHistoryToken="newHistoryToken"/>
-						<g:Hyperlink text="Inspect Hive" targetHistoryToken="newHistoryToken"/>
-						<g:Hyperlink text="Modify Hive" targetHistoryToken="newHistoryToken"/>
-						<g:Hyperlink text="New Hyperlink" targetHistoryToken="newHistoryToken"/>
-						<g:Hyperlink text="New Hyperlink" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="View Locations" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="Create Location" targetHistoryToken="newHistoryToken"/>
 					</g:VerticalPanel>
 				</g:CaptionPanel>
 				<g:DecoratorPanel>
@@ -30,31 +26,14 @@
 								<g:ListBox visibleItemCount="10" ui:field="LocationList"/>
 							</g:VerticalPanel>							
 							
-							<g:VerticalPanel>
-								<g:HTML wordWrap="true">Apiary</g:HTML>						
-								<g:ListBox visibleItemCount="10"/>
-							</g:VerticalPanel>
-							
-							<g:VerticalPanel>
-								<g:HTML wordWrap="true">Filter</g:HTML>						
-								<g:ListBox visibleItemCount="10"/>
-							</g:VerticalPanel>
-							
-							<g:VerticalPanel>
-								<g:HTML wordWrap="true">Hive</g:HTML>						
-								<g:ListBox visibleItemCount="10" ui:field="HiveList"/>
-							</g:VerticalPanel>						
+					
 						</g:HorizontalPanel>
 						
 						
 							<g:VerticalPanel>
 								<g:HorizontalPanel>
 									<g:HTML wordWrap="true">Hives</g:HTML>
-									<g:Label text="New Label"/>
-								</g:HorizontalPanel>
-								<g:SimplePanel>
-									<w:TextButton width="100%" height="100%">New button</w:TextButton>
-								</g:SimplePanel>	
+								</g:HorizontalPanel>	
 								
 								
 								<g:HTML wordWrap="true">Hives</g:HTML>
@@ -69,27 +48,39 @@
 		<g:SimplePanel>
 			<g:Grid width="100%" height="100%">
 				<g:row>
-					<g:customCell><g:Label text="Parent Apiary"/></g:customCell>
-					<g:customCell><g:TextBox/></g:customCell>
+					<g:customCell><g:Label text="Location Name"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="locationName"/></g:customCell>
 				</g:row>
 				<g:row>
-					<g:customCell><g:Label text="Hive Name"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="createHiveName"/></g:customCell>
+					<g:customCell><g:Label text="Region"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="region"/></g:customCell>
 				</g:row>				
 				<g:row>
-					<g:customCell><g:Label text="Hive Number"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="createHiveNumber"/></g:customCell>
+					<g:customCell><g:Label text="Street"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="street"/></g:customCell>
 				</g:row>	
 				<g:row>
-					<g:customCell><g:Label text="Hive Barcode"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="createHiveBarCode"/></g:customCell>
+					<g:customCell><g:Label text="City"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="city"/></g:customCell>
 				</g:row>
 				<g:row>
-					<g:customCell><g:Label text="Hive RFID"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="createHiveRFID"/></g:customCell>
-				</g:row>				
+					<g:customCell><g:Label text="Post code"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="postCode"/></g:customCell>
+				</g:row>
+												<g:row>
+					<g:customCell><g:Label text="Country"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="Country"/></g:customCell>
+				</g:row>	
+																<g:row>
+					<g:customCell><g:Label text="Longitude"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="longitude"/></g:customCell>
+				</g:row>	
+																				<g:row>
+					<g:customCell><g:Label text="Latitude"/></g:customCell>
+					<g:customCell><g:TextBox ui:field="latitude"/></g:customCell>
+				</g:row>
 			</g:Grid>
 		</g:SimplePanel>
-		<w:TextButton text="Create Hive" value="CreateHive" ui:field="CreateHiveButton">New button</w:TextButton>
+		<w:TextButton text="Create Location" value="CreateLocation" ui:field="CreateLocationButton">New button</w:TextButton>
 	</g:FlowPanel>
 </ui:UiBinder>
