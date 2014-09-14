@@ -10,10 +10,10 @@ import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.swt.BeeApp3.client.ApiAsync;
+import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveEditCancelEvent;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
-import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.shared.model.Hive;
 
 public class HiveEditPresenter implements Presenter

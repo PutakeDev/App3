@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<ui:style>
+		.panel {
+			background-color: ivory;
+		}
+	</ui:style>
+
+	<g:FlowPanel styleName="{style.panel}">
+		<g:VerticalPanel height="186px" width="275px">
+			<g:Label text="New Label"/>
+			<g:Label text="New Label"/>
+			<g:HorizontalPanel height="51px" width="221px">
+				<g:CaptionPanel captionText="Hives" >
+					<g:VerticalPanel>
+						<g:Hyperlink text="View Views" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="Create Hive" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="Inspect Hive" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="Modify Hive" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="New Hyperlink" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="New Hyperlink" targetHistoryToken="newHistoryToken"/>
+					</g:VerticalPanel>
+				</g:CaptionPanel>
+				<g:DecoratorPanel/>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+	</g:FlowPanel>
+</ui:UiBinder>

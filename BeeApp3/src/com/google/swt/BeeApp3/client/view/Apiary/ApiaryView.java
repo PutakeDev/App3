@@ -68,7 +68,7 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		contentTableDecorator.add(contentTable);
 		
 		DecoratorPanel dp1 = this.initApiaryMenu();
-		dp1.add(contentTable);
+		//dp1.add(contentTable);
 		
 		//WidgetContainer c1 = new WidgetContainer("Title", contentTable);
 		
@@ -82,8 +82,8 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		DecoratorPanel dp = new DecoratorPanel();
 		dp.setTitle("Actions");
 		dp.add(new Label("Create Apiary"));
-		dp.add(new Label("View Apiary"));
-		dp.add(new Label("Enter Visit Notes"));
+	//	dp.add(new Label("View Apiary"));
+		//dp.add(new Label("Enter Visit Notes"));
 		return dp;
 	}
 

@@ -24,15 +24,17 @@ import com.google.swt.BeeApp3.client.Presenter.HiveEditPresenter;
 import com.google.swt.BeeApp3.client.Presenter.HivePresenter;
 import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 import com.google.swt.BeeApp3.client.Presenter.Presenter;
-import com.google.swt.BeeApp3.client.event.HiveAddEvent;
-import com.google.swt.BeeApp3.client.event.HiveAddEventHandler;
-import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
-import com.google.swt.BeeApp3.client.event.HiveUpdatedEventHandler;
 import com.google.swt.BeeApp3.client.view.HiveEditView;
 import com.google.swt.BeeApp3.client.view.HiveView;
 import com.google.swt.BeeApp3.client.view.LocationTab;
 import com.google.swt.BeeApp3.client.view.LocationView;
+import com.google.swt.BeeApp3.client.event.HiveAddEvent;
+import com.google.swt.BeeApp3.client.event.HiveAddEventHandler;
+import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
+import com.google.swt.BeeApp3.client.event.HiveUpdatedEventHandler;
 import com.google.swt.BeeApp3.client.view.Apiary.ApiaryView;
+import com.google.swt.BeeApp3.client.view.Apiary.SampleViewImpl;
+import com.google.swt.BeeApp3.client.view.Hive.HiveMainView;
 import com.google.swt.BeeApp3.shared.model.Hive;
 
 public class AppController implements Presenter, ValueChangeHandler<String>
@@ -93,9 +95,9 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		this.company = new HiveView();
 		this.apiary =  new ApiaryView();
 		this.dashboard = new HiveView();
-		this.other = new HiveView();
+		this.other = new SampleViewImpl();
 		
-		this.hive = new HiveView();
+		this.hive = new HiveMainView();
 		
 		
 		tabPanel.add(this.dashboard,"Dashboard");
