@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Public resources found in...
 Translatable source found in...
 Found 0 cached/archived units.  Used 0 / 2798 units from cache.
@@ -3271,3 +3272,5 @@ Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationV
       Compiling...
          Compilation completed in 0.01 seconds
       Removing invalidated units
+=======
+>>>>>>> refs/remotes/origin/master
