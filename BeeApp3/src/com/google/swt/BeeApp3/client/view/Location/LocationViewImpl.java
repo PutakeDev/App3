@@ -12,6 +12,7 @@ import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.swt.BeeApp3.client.Presenter.HivePresenter;
 import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
@@ -32,10 +33,16 @@ public class LocationViewImpl<T> extends Composite implements LocationView<T>
 	
 	  @UiField TextButton CreateLocationButton;
 	  @UiField TextBox locationName;
+	  @UiField TextBox region;
+	  @UiField TextBox street;
+	  @UiField TextBox city;
+	  @UiField TextBox postCode;
+	  @UiField TextBox Country;
 	  @UiField Label statusLabel;
-	
+	  @UiField ListBox LocationList;
+	  
 	  private Presenter<T> presenter;
-	  private List<T> rowData;
+	  private Location[] rowData;
 	
 	  
 	public LocationViewImpl()
@@ -44,17 +51,6 @@ public class LocationViewImpl<T> extends Composite implements LocationView<T>
 	}
 
 	
-
-	@UiHandler("CreateLocationButton")
-	void onCreateLocationButtonClick(ClickEvent event) {
-	    if (presenter != null) {
-	    	Location l = new Location();
-	    	l.setLocationName(this.locationName.getText());	    	
-	        presenter.onAddButtonClicked(l);
-	      }
-	}
-
-
 	public void setStatusLabelText(String t)
 	{
 		this.statusLabel.setText(t);
@@ -67,17 +63,39 @@ public class LocationViewImpl<T> extends Composite implements LocationView<T>
 	}
 
 	@Override
-	public void setPresenter(
-			com.google.swt.BeeApp3.client.view.Location.LocationView.Presenter<T> presenter)
+	public void setPresenter(Presenter<T> presenter)
 	{
 		this.presenter = presenter;
 	}
 	
-
-	@Override
-	public void setRowData(List<T> rowData)
+	  @UiHandler("CreateLocationButton")
+	  void onAddButtonClicked(ClickEvent event) {
+	    if (presenter != null) {
+	      presenter.onAddButtonClicked();
+	      this.statusLabel.setText(this.locationName.getText());
+	    }
+	    this.CreateLocationButton.setText("pressed");
+	  }
+	
+	  private void doCreateNewLocation()
+	  {
+		  Location l = new Location();
+		  l.setLocationName(this.locationName.getText());
+		  l.setRegion(this.region.getText());
+		  l.setStreet(this.street.getText());
+		  l.setCity(this.city.getText());
+		  l.setCountry(this.Country.getText());
+	  }
+	  
+	  
+	  @Override	
+	public void setRowData(Location[] rowData)
 	{
-		// TODO Auto-generated method stub
+		this.rowData =  rowData;
+		for(int i = 0; i<this.rowData.length; i++)
+		{
+		this.LocationList.addItem(this.rowData[i].getDisplayName());
+		}
 		
 	}
 	

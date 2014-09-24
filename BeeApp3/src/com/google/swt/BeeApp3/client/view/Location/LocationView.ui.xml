@@ -14,7 +14,7 @@
 			<g:HorizontalPanel height="51px" width="413px">
 				<g:CaptionPanel captionText="Hives" >
 					<g:VerticalPanel>
-						<g:Hyperlink text="View Locations" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="View Locations" targetHistoryToken="location1"/>
 						<g:Hyperlink text="Create Location" targetHistoryToken="newHistoryToken"/>
 					</g:VerticalPanel>
 				</g:CaptionPanel>

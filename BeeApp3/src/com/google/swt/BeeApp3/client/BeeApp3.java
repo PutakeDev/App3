@@ -31,9 +31,9 @@ public class BeeApp3 implements EntryPoint
 		ApiAsync hiveApi = GWT.create(Api.class);
 		HandlerManager eventBus = new HandlerManager(null);
 		AppController appViewer = new AppController(hiveApi, eventBus);
-		//appViewer.go(RootPanel.get());
+		appViewer.go(RootPanel.get());
 
-		// CreatTempObjects temp = new CreatTempObjects(hiveApi);
-		// temp.locations();
+		CreatTempObjects temp = new CreatTempObjects(hiveApi);
+		temp.locations();
 	}
 }

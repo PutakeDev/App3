@@ -10,7 +10,7 @@ public interface LocationView<T>
 {
 
 	  public interface Presenter<T> {
-	    void onAddButtonClicked(Location l);
+	    void onAddButtonClicked();
 	    void onDeleteButtonClicked();
 	    void onItemClicked(T clickedItem);
 	    void onItemSelected(T selectedItem);
@@ -20,8 +20,9 @@ public interface LocationView<T>
 
 	  void setStatusLabelText(String t);
 	  
-	  void setRowData(List<T> rowData);
-	  Widget asWidget();
-
+	  void setRowData(Location[] rowData);
+	  
 	  void onLocationAdded(LocationAddEvent event);
+	  	  
+	  Widget asWidget();
 	}

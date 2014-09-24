@@ -23,29 +23,22 @@ import com.google.swt.BeeApp3.client.view.Location.LocationView;
 import com.google.swt.BeeApp3.shared.model.Hive;
 import com.google.swt.BeeApp3.shared.model.Location;
 
-public class LocationPresenter implements Presenter, LocationView.Presenter
+public class LocationPresenter implements Presenter, LocationView.Presenter<Location>
 {
-	public interface Display extends HasValue<List<String>>
-	{
-		Widget asWidget();
-
-		HasClickHandlers getAddButton();
-
-	}
 
 	private final ApiAsync api;
-	private final Display display;
 	private final HandlerManager eventBus;
-
+	private final LocationView<Location> view;
+	
 	private Location[] locations;
 
-	public LocationPresenter(ApiAsync api, HandlerManager eventBus,
-			Display display)
+	public LocationPresenter(ApiAsync api, HandlerManager eventBus, LocationView<Location> view)
 	{
 
 		this.api = api;
 		this.eventBus = eventBus;
-		this.display = display;
+		this.view = view;
+		this.view.setPresenter(this);
 	}
 
 	public void bind()
@@ -62,47 +55,62 @@ public class LocationPresenter implements Presenter, LocationView.Presenter
 	@Override
 	public void go(HasWidgets container)
 	{
-		bind();
-		container.clear();
-		container.add(display.asWidget());
+	    container.clear();
+	    container.add(view.asWidget());
+	    fetchLocationDetails();
 	}
 
 	@Override
-	public void onAddButtonClicked(Location l)
+	public void onAddButtonClicked()
 	{
-		
-		api.addNewLocation(l,  new AsyncCallback<String>()
-		{
-			public void onFailure(Throwable caught)
-			{
-			}
-
-			public void onSuccess(String result)
-			{
-				//setStatusLabelText("Location added");
-				
-			}
-		});
 		eventBus.fireEvent(new LocationAddEvent());
-		
+		this.view.setStatusLabelText("Add clicked");
 	}
 
 	@Override
 	public void onDeleteButtonClicked()
 	{
-		// TODO Auto-generated method stub
-		
+				
 	}
 
+	private void fetchLocationDetails()
+	{
+		this.api.getLocationList(
+				
+				new AsyncCallback<Location[]>() {
+     
+			
+			
+			
+       
+    
+      
+      public void onFailure(Throwable caught) {
+        Window.alert("Error fetching contact details");
+     
+
+ }
+
 	@Override
-	public void onItemClicked(Object clickedItem)
+	public void onSuccess(Location[] result)
+	{
+		   locations = result;
+	       view.setRowData(locations);
+		
+	}
+    });
+	}
+	
+
+	@Override
+	public void onItemClicked(Location clickedItem)
 	{
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void onItemSelected(Object selectedItem)
+	public void onItemSelected(Location selectedItem)
 	{
 		// TODO Auto-generated method stub
 		
