@@ -19,8 +19,6 @@ public interface Api extends RemoteService
 
 	String deleteHive(String[] hiveToDelete);
 
-	String deleteLocation(String[] locationsToDelete);
-
 	Apiary[] getApiaryList();
 
 	Hive[] getHiveList();
@@ -32,4 +30,6 @@ public interface Api extends RemoteService
 	String persistHive(Hive hive);
 
 	String persistLocation(Location location);
+
+	String deleteLocation(Location locationToDelete);
 }

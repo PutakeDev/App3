@@ -16,7 +16,6 @@ package com.google.swt.BeeApp3.client.view.Apiary;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.place.shared.Place;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
@@ -28,37 +27,43 @@ import com.google.gwt.user.client.ui.Widget;
 /**
  * Sample implementation of {@link SampleView}.
  */
-public class SampleViewImpl extends Composite implements SampleView {
+public class SampleViewImpl extends Composite implements SampleView
+{
 
-	interface Binder extends UiBinder<Widget, SampleViewImpl> {
+	interface Binder extends UiBinder<Widget, SampleViewImpl>
+	{
 	}
-	
-	private static final Binder binder = GWT.create(Binder.class);
-	@UiField Button button;
-	@UiField Label statusLabel;
 
+	private static final Binder binder = GWT.create(Binder.class);
+	@UiField
+	Button button;
 	private Presenter listener;
 
-	public SampleViewImpl() {
+	@UiField
+	Label statusLabel;
+
+	public SampleViewImpl()
+	{
 		initWidget(binder.createAndBindUi(this));
 	}
 
-
-	@Override
-	public void setPresenter(Presenter listener) {
-		this.listener = listener;
+	@UiHandler("button")
+	void onButtonClick(ClickEvent event)
+	{
+		button.setText("Button Text");
+		statusLabel.setText("button clicked" + statusLabel.getText());
 	}
-
 
 	@Override
 	public void setName(String helloName)
 	{
 		// TODO Auto-generated method stub
-		
+
 	}
-	@UiHandler("button")
-	void onButtonClick(ClickEvent event) {
-		button.setText("Button Text");
-		statusLabel.setText("button clicked" + statusLabel.getText());
+
+	@Override
+	public void setPresenter(Presenter listener)
+	{
+		this.listener = listener;
 	}
 }

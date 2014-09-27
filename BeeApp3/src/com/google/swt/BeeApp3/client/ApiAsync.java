@@ -18,9 +18,6 @@ public interface ApiAsync
 
 	void deleteHive(String[] hiveToDelete, AsyncCallback<String> callback);
 
-	void deleteLocation(String[] locationsToDelete,
-			AsyncCallback<String> callback);
-
 	void getApiaryList(AsyncCallback<Apiary[]> callback);
 
 	void getHiveList(AsyncCallback<Hive[]> callback);
@@ -32,5 +29,7 @@ public interface ApiAsync
 	void persistHive(Hive hive, AsyncCallback<String> callback);
 
 	void persistLocation(Location location, AsyncCallback<String> callback);
+
+	void deleteLocation(Location locationToDelete, AsyncCallback<String> callback);
 
 }

@@ -1,7 +1,6 @@
 package com.google.swt.BeeApp3.client.event;
 
 import com.google.gwt.event.shared.GwtEvent;
-import com.google.gwt.event.shared.GwtEvent.Type;
 
 public class LocationAddEvent extends GwtEvent<LocationAddEventHandler>
 {

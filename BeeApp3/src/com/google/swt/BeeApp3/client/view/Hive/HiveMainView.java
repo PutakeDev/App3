@@ -8,58 +8,43 @@ import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.HandlerRegistration;
 import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.Widget;
-import com.google.swt.BeeApp3.client.Presenter.HivePresenter;
-import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.client.ui.TextBox;
-import com.google.gwt.widget.client.TextButton;
 import com.google.gwt.uibinder.client.UiHandler;
+import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.ListBox;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.widget.client.TextButton;
+import com.google.swt.BeeApp3.client.Presenter.HivePresenter;
 
 public class HiveMainView extends Composite implements HivePresenter.Display
 {
-
-	private static final Binder binder = GWT.create(Binder.class);
-	@UiField TextBox createHiveName;
-	@UiField TextBox createHiveNumber;
-	@UiField TextBox createHiveBarCode;
-	@UiField TextBox createHiveRFID;
-	@UiField TextButton CreateHiveButton;
-	@UiField ListBox LocationList;
-	@UiField ListBox HiveList;
 
 	interface Binder extends UiBinder<Widget, HiveMainView>
 	{
 	}
 
+	private static final Binder binder = GWT.create(Binder.class);
+	@UiField
+	TextBox createHiveBarCode;
+	@UiField
+	TextButton CreateHiveButton;
+	@UiField
+	TextBox createHiveName;
+	@UiField
+	TextBox createHiveNumber;
+	@UiField
+	TextBox createHiveRFID;
+	@UiField
+	ListBox HiveList;
+
+	@UiField
+	ListBox LocationList;
+
 	public HiveMainView()
 	{
-		
-		
+
 		initWidget(binder.createAndBindUi(this));
-	}
-
-	@Override
-	public List<String> getValue()
-	{
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void setValue(List<String> value)
-	{
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void setValue(List<String> value, boolean fireEvents)
-	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
@@ -106,10 +91,23 @@ public class HiveMainView extends Composite implements HivePresenter.Display
 	}
 
 	@Override
+	public List<String> getValue()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@UiHandler("CreateHiveButton")
+	void onCreateHiveButtonClick(ClickEvent event)
+	{
+
+	}
+
+	@Override
 	public void setData(List<String> data)
 	{
 		this.HiveList.clear();
-		
+
 		for (int i = 0; i < data.size(); ++i)
 		{
 			this.HiveList.addItem(data.get(i));
@@ -118,12 +116,20 @@ public class HiveMainView extends Composite implements HivePresenter.Display
 
 	private void setLocationList()
 	{
-		
+
 	}
-	
-	
-	@UiHandler("CreateHiveButton")
-	void onCreateHiveButtonClick(ClickEvent event) {
-		
+
+	@Override
+	public void setValue(List<String> value)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setValue(List<String> value, boolean fireEvents)
+	{
+		// TODO Auto-generated method stub
+
 	}
 }

@@ -1,8 +1,6 @@
 package com.google.swt.BeeApp3.client;
 
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
 import com.google.swt.BeeApp3.shared.model.Location;
 
 public class CreatTempObjects
@@ -37,30 +35,36 @@ public class CreatTempObjects
 
 		this.api.persistLocation(l, new AsyncCallback<String>()
 		{
+			@Override
 			public void onFailure(Throwable caught)
 			{
 			}
 
+			@Override
 			public void onSuccess(String result)
 			{
 			}
 		});
 		this.api.persistLocation(l2, new AsyncCallback<String>()
 		{
+			@Override
 			public void onFailure(Throwable caught)
 			{
 			}
 
+			@Override
 			public void onSuccess(String result)
 			{
 			}
 		});
 		this.api.persistLocation(l3, new AsyncCallback<String>()
 		{
+			@Override
 			public void onFailure(Throwable caught)
 			{
 			}
 
+			@Override
 			public void onSuccess(String result)
 			{
 			}

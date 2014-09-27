@@ -7,8 +7,6 @@ import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
-import com.google.gwt.i18n.client.DateTimeFormat;
-import com.google.gwt.i18n.shared.DateTimeFormat.PredefinedFormat;
 import com.google.gwt.user.client.rpc.IsSerializable;
 import com.google.swt.BeeApp3.server.DateHelper;
 
@@ -83,6 +81,4 @@ public class Colony implements IsSerializable
 		this.name = name;
 	}
 
-
-	
 }

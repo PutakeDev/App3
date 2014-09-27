@@ -2,17 +2,17 @@ package com.google.swt.BeeApp3.server;
 
 import java.util.List;
 
-import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-import com.google.swt.BeeApp3.client.Api;
-import com.google.swt.BeeApp3.shared.model.Apiary;
-import com.google.swt.BeeApp3.shared.model.Hive;
-import com.google.swt.BeeApp3.shared.model.Location;
-
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
 import javax.jdo.Query;
 import javax.jdo.Transaction;
+
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+import com.google.swt.BeeApp3.client.Api;
+import com.google.swt.BeeApp3.shared.model.Apiary;
+import com.google.swt.BeeApp3.shared.model.Hive;
+import com.google.swt.BeeApp3.shared.model.Location;
 
 @SuppressWarnings("serial")
 public class ApiImpl extends RemoteServiceServlet implements Api
@@ -39,6 +39,7 @@ public class ApiImpl extends RemoteServiceServlet implements Api
 		return apiary.getId();
 	}
 
+	@Override
 	public String addNewHive(Hive newHive)
 	{
 		PersistenceManager pm = pmf.getPersistenceManager();
@@ -71,10 +72,31 @@ public class ApiImpl extends RemoteServiceServlet implements Api
 	}
 
 	@Override
-	public String deleteLocation(String[] locationsToDelete)
+	public String deleteLocation(Location locationToDelete)
 	{
-		// TODO Auto-generated method stub
-		return null;
+		PersistenceManager pm = pmf.getPersistenceManager();
+		Transaction tx = pm.currentTransaction();
+		try
+		{
+			tx.begin();
+			pm.deletePersistent(pm.getObjectById(locationToDelete.getClass(),
+					locationToDelete.getId()));
+			tx.commit();
+
+		}
+		catch (Exception ex)
+		{
+			if (tx.isActive())
+			{
+				tx.rollback();
+			}
+		}
+		finally
+		{
+
+			pm.close();
+		}
+		return "ok";
 	}
 
 	@Override
@@ -103,6 +125,11 @@ public class ApiImpl extends RemoteServiceServlet implements Api
 		pm.close();
 
 		return hives.toArray(new Hive[0]);
+	}
+
+	public void clearLocations()
+	{
+		PersistenceManager pm = pmf.getPersistenceManager();
 	}
 
 	@Override
@@ -180,11 +207,11 @@ public class ApiImpl extends RemoteServiceServlet implements Api
 	{
 		String hiveId = null;
 		PersistenceManager pm = pmf.getPersistenceManager();
-		Transaction tx = (Transaction) pm.currentTransaction();
+		Transaction tx = pm.currentTransaction();
 		try
 		{
-			((javax.jdo.Transaction) tx).begin();
-			Hive managedHive = (Hive) pm.getObjectById(Hive.class,
+			tx.begin();
+			Hive managedHive = pm.getObjectById(Hive.class,
 					existingHive.getId());
 			if (managedHive != null)
 			{
@@ -193,13 +220,13 @@ public class ApiImpl extends RemoteServiceServlet implements Api
 				managedHive.setRFID(existingHive.getRFID());
 				hiveId = managedHive.getId();
 			}
-			((javax.jdo.Transaction) tx).commit();
+			tx.commit();
 		}
 		catch (Exception e)
 		{
-			if (((javax.jdo.Transaction) tx).isActive())
+			if (tx.isActive())
 			{
-				((javax.jdo.Transaction) tx).rollback();
+				tx.rollback();
 			}
 		}
 		finally

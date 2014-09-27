@@ -11,10 +11,10 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DecoratorPanel;
-import com.google.gwt.user.client.ui.DockPanel;
 import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HTMLTable;
-import com.google.gwt.user.client.ui.HasValue;
+import com.google.gwt.user.client.ui.HasHorizontalAlignment;
+import com.google.gwt.user.client.ui.HasVerticalAlignment;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Widget;
@@ -30,7 +30,7 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 	public ApiaryView()
 	{
 		DecoratorPanel contentTableDecorator = new DecoratorPanel();
-		//initWidget(contentTableDecorator);
+		// initWidget(contentTableDecorator);
 		contentTableDecorator.setWidth("100%");
 		contentTableDecorator.setWidth("18em");
 
@@ -40,14 +40,14 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 				"contacts-ListContainer");
 		contentTable.getCellFormatter().setWidth(0, 0, "100%");
 		contentTable.getFlexCellFormatter().setVerticalAlignment(0, 0,
-				DockPanel.ALIGN_TOP);
+				HasVerticalAlignment.ALIGN_TOP);
 
 		// Create the menu
 		//
 		HorizontalPanel hPanel = new HorizontalPanel();
 		hPanel.setBorderWidth(0);
 		hPanel.setSpacing(0);
-		hPanel.setHorizontalAlignment(HorizontalPanel.ALIGN_LEFT);
+		hPanel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_LEFT);
 		addButton = new Button("Add123");
 		hPanel.add(addButton);
 		deleteButton = new Button("Delete");
@@ -66,25 +66,13 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		contentTable.setWidget(1, 0, contactsTable);
 
 		contentTableDecorator.add(contentTable);
-		
+
 		DecoratorPanel dp1 = this.initApiaryMenu();
-		//dp1.add(contentTable);
-		
-		//WidgetContainer c1 = new WidgetContainer("Title", contentTable);
-		
-		
-		
+		// dp1.add(contentTable);
+
+		// WidgetContainer c1 = new WidgetContainer("Title", contentTable);
+
 		initWidget(dp1);
-	}
-	
-	private DecoratorPanel initApiaryMenu()
-	{
-		DecoratorPanel dp = new DecoratorPanel();
-		dp.setTitle("Actions");
-		dp.add(new Label("Create Apiary"));
-	//	dp.add(new Label("View Apiary"));
-		//dp.add(new Label("Enter Visit Notes"));
-		return dp;
 	}
 
 	@Override
@@ -95,16 +83,19 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		return null;
 	}
 
+	@Override
 	public Widget asWidget()
 	{
 		return this;
 	}
 
+	@Override
 	public HasClickHandlers getAddButton()
 	{
 		return addButton;
 	}
 
+	@Override
 	public int getClickedRow(ClickEvent event)
 	{
 		int selectedRow = -1;
@@ -124,16 +115,19 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		return selectedRow;
 	}
 
+	@Override
 	public HasClickHandlers getDeleteButton()
 	{
 		return deleteButton;
 	}
 
+	@Override
 	public HasClickHandlers getList()
 	{
 		return contactsTable;
 	}
 
+	@Override
 	public List<Integer> getSelectedRows()
 	{
 		List<Integer> selectedRows = new ArrayList<Integer>();
@@ -157,6 +151,17 @@ public class ApiaryView extends Composite implements HivePresenter.Display
 		return null;
 	}
 
+	private DecoratorPanel initApiaryMenu()
+	{
+		DecoratorPanel dp = new DecoratorPanel();
+		dp.setTitle("Actions");
+		dp.add(new Label("Create Apiary"));
+		// dp.add(new Label("View Apiary"));
+		// dp.add(new Label("Enter Visit Notes"));
+		return dp;
+	}
+
+	@Override
 	public void setData(List<String> data)
 	{
 		contactsTable.removeAllRows();

@@ -7,7 +7,6 @@ import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
-import com.google.api.server.spi.types.DateAndTime;
 import com.google.gwt.user.client.rpc.IsSerializable;
 
 public class Event implements IsSerializable
@@ -46,11 +45,11 @@ public class Event implements IsSerializable
 	@Extension(vendorName = "datanucleus", key = "gae.encoded-pk", value = "true")
 	private String id;
 
-	private UserRoleMatrix userRoleMatrix;
-
 	private String text;
 
 	private Date time;
+
+	private UserRoleMatrix userRoleMatrix;
 
 	public Event()
 	{
@@ -62,7 +61,6 @@ public class Event implements IsSerializable
 		return action;
 	}
 
-
 	public int getEvent()
 	{
 		return event;
@@ -72,8 +70,6 @@ public class Event implements IsSerializable
 	{
 		return id;
 	}
-
-
 
 	public String getText()
 	{
@@ -85,12 +81,15 @@ public class Event implements IsSerializable
 		return time;
 	}
 
+	public UserRoleMatrix getUserRoleMatrix()
+	{
+		return userRoleMatrix;
+	}
+
 	public void setAction(Action action)
 	{
 		this.action = action;
 	}
-
-
 
 	public void setEvent(int event)
 	{
@@ -102,18 +101,6 @@ public class Event implements IsSerializable
 		this.id = id;
 	}
 
-
-
-	public UserRoleMatrix getUserRoleMatrix()
-	{
-		return userRoleMatrix;
-	}
-
-	public void setUserRoleMatrix(UserRoleMatrix userRoleMatrix)
-	{
-		this.userRoleMatrix = userRoleMatrix;
-	}
-
 	public void setText(String text)
 	{
 		this.text = text;
@@ -122,6 +109,11 @@ public class Event implements IsSerializable
 	public void setTime(Date time)
 	{
 		this.time = time;
+	}
+
+	public void setUserRoleMatrix(UserRoleMatrix userRoleMatrix)
+	{
+		this.userRoleMatrix = userRoleMatrix;
 	}
 
 }

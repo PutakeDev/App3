@@ -1,5 +1,7 @@
 package com.google.swt.BeeApp3.shared.model;
 
+import java.util.Comparator;
+
 import javax.jdo.annotations.Extension;
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
@@ -13,7 +15,7 @@ import com.google.gwt.user.client.rpc.IsSerializable;
  * JDO persistable TaskData.
  */
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
-public class Location implements IsSerializable
+public class Location implements IsSerializable, Comparable<Location>
 {
 
 	private double[][] area;
@@ -69,6 +71,11 @@ public class Location implements IsSerializable
 		return id;
 	}
 
+	public String toString()
+	{
+		return this.locationName;
+	}
+	
 	public double getLatitude()
 	{
 		return latitude;
@@ -148,5 +155,27 @@ public class Location implements IsSerializable
 	{
 		this.street = street;
 	}
+
+	@Override
+	public int compareTo(Location lToCompare)
+	{
+		return this.toString().compareToIgnoreCase(lToCompare.toString());
+	}
+
+	public static Comparator<Location> LocationNameComparator = new Comparator<Location>()
+	{
+
+		public int compare(Location l1, Location l2)
+		{
+
+			String location1Name = l1.getLocationName().toUpperCase();
+			String location2Name = l2.getLocationName().toUpperCase();
+
+			// ascending order
+			return location1Name.compareTo(location2Name);
+
+		}
+
+	};
 
 }

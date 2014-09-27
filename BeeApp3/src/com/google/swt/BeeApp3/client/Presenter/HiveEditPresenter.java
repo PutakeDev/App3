@@ -10,17 +10,8 @@ import com.google.gwt.user.client.ui.HasValue;
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.swt.BeeApp3.client.ApiAsync;
-<<<<<<< HEAD
-import com.google.swt.BeeApp3.client.view.HiveEditView;
-import com.google.swt.BeeApp3.client.event.HiveAddEvent;
 import com.google.swt.BeeApp3.client.event.HiveEditCancelEvent;
 import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
-=======
-import com.google.swt.BeeApp3.client.event.HiveAddEvent;
-import com.google.swt.BeeApp3.client.event.HiveEditCancelEvent;
-import com.google.swt.BeeApp3.client.event.HiveUpdatedEvent;
-import com.google.swt.BeeApp3.client.view.HiveEditView;
->>>>>>> refs/remotes/origin/master
 import com.google.swt.BeeApp3.shared.model.Hive;
 
 public class HiveEditPresenter implements Presenter
@@ -61,6 +52,7 @@ public class HiveEditPresenter implements Presenter
 	{
 		this.display.getSaveButton().addClickHandler(new ClickHandler()
 		{
+			@Override
 			public void onClick(ClickEvent event)
 			{
 				doSave();
@@ -69,6 +61,7 @@ public class HiveEditPresenter implements Presenter
 
 		this.display.getCancelButton().addClickHandler(new ClickHandler()
 		{
+			@Override
 			public void onClick(ClickEvent event)
 			{
 				eventBus.fireEvent(new HiveEditCancelEvent(event.toString()));
@@ -84,11 +77,13 @@ public class HiveEditPresenter implements Presenter
 
 		this.hiveApi.addNewHive(hive, new AsyncCallback<String>()
 		{
+			@Override
 			public void onFailure(Throwable caught)
 			{
 				Window.alert("Error updating contact");
 			}
 
+			@Override
 			public void onSuccess(String result)
 			{
 				eventBus.fireEvent(new HiveUpdatedEvent(hive));

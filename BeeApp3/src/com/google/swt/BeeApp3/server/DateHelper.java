@@ -9,9 +9,9 @@ public class DateHelper
 
 	public DateHelper()
 	{
-		
+
 	}
-	
+
 	public Date getGMTTimeStamp()
 	{
 		Date date = new Date();
@@ -21,7 +21,5 @@ public class DateHelper
 		cal.setTimeZone(tzGMT);
 		return cal.getTime();
 	}
-
-
 
 }

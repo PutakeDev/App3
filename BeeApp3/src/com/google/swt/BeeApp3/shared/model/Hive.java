@@ -3,14 +3,14 @@
  */
 package com.google.swt.BeeApp3.shared.model;
 
-import com.google.gwt.user.client.rpc.IsSerializable;
-
 import javax.jdo.annotations.Extension;
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
+
+import com.google.gwt.user.client.rpc.IsSerializable;
 
 /**
  * @author Erik
@@ -61,7 +61,6 @@ public class Hive implements IsSerializable
 		return id;
 	}
 
-
 	public String getName()
 	{
 		return name;
@@ -82,7 +81,6 @@ public class Hive implements IsSerializable
 		return RFID;
 	}
 
-
 	public void setBarcode(String barcode)
 	{
 		this.barcode = barcode;
@@ -92,7 +90,6 @@ public class Hive implements IsSerializable
 	{
 		this.id = id;
 	}
-
 
 	public void setName(String name)
 	{
@@ -114,12 +111,10 @@ public class Hive implements IsSerializable
 		RFID = rFID;
 	}
 
-
 	@Override
 	public String toString()
 	{
-		return "Hive [ID=" + id + ", name=" + name
-				+ ", RFID=" + RFID + "]";
+		return "Hive [ID=" + id + ", name=" + name + ", RFID=" + RFID + "]";
 	}
 
 }

@@ -14,8 +14,8 @@
 			<g:HorizontalPanel height="51px" width="413px">
 				<g:CaptionPanel captionText="Hives" >
 					<g:VerticalPanel>
-						<g:Hyperlink text="View Locations" targetHistoryToken="location1"/>
-						<g:Hyperlink text="Create Location" targetHistoryToken="newHistoryToken"/>
+						<g:Hyperlink text="View Locations" targetHistoryToken="list"/>
+						<g:Hyperlink text="Create Location" targetHistoryToken="create"/>
 					</g:VerticalPanel>
 				</g:CaptionPanel>
 				<g:DecoratorPanel>
@@ -33,9 +33,12 @@
 							<g:VerticalPanel>
 								<g:HorizontalPanel>
 									<g:HTML wordWrap="true">Hives</g:HTML>
-								</g:HorizontalPanel>	
+								</g:HorizontalPanel>
+								<g:HorizontalPanel>
+								<w:TextButton>Modify</w:TextButton>
+								<w:TextButton ui:field="deleteLocationButton">Delete</w:TextButton>	
 								
-								
+								</g:HorizontalPanel>
 								<g:HTML wordWrap="true">Hives</g:HTML>
 								
 								
@@ -43,6 +46,8 @@
 						
 					</g:VerticalPanel>
 				</g:DecoratorPanel>
+				<g:HTMLPanel ui:field="TEMP"></g:HTMLPanel>
+				
 			</g:HorizontalPanel>
 		</g:VerticalPanel>
 		<g:SimplePanel>

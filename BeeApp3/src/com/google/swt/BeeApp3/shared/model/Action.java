@@ -15,6 +15,7 @@ public class Action implements IsSerializable
 	public static final int INSPECT_COLONY = 1;
 	public static final int NO_ACTION = 4;
 	public static final int REPAIR_HIVE = 3;
+
 	public static int getInspectApiary()
 	{
 		return INSPECT_APIARY;

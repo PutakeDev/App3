@@ -11,7 +11,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
-import com.google.swt.BeeApp3.client.Presenter.*;
+import com.google.swt.BeeApp3.client.Presenter.HiveEditPresenter;
 
 ;
 
@@ -58,6 +58,7 @@ public class HiveEditView extends Composite implements
 		contentDetailsDecorator.add(contentDetailsPanel);
 	}
 
+	@Override
 	public Widget asWidget()
 	{
 		return this;
