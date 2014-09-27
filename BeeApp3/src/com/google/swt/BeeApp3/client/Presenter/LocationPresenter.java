@@ -131,7 +131,7 @@ public class LocationPresenter implements Presenter,
 	@Override
 	public void onItemClicked(Location clickedItem)
 	{
-		// TODO Auto-generated method stub
+		this.detailViewPresenter.setCurrentLocation(clickedItem);
 
 	}
 

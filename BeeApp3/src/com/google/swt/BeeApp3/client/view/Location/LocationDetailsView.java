@@ -13,6 +13,9 @@ public interface LocationDetailsView<T>
 	}
 	Widget asWidget();
 	void setPresenter(LocationDetailsViewPresenter locationViewDetailsPresenter);
+	void setLocationName(String locationName);
+	void setLocationRegion(String locationRegion);
+	void setLocationStreet(String locationStreet);
 
 
 }

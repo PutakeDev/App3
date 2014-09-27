@@ -1,91 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
-<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:w="urn:import:com.google.gwt.widget.client">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:w="urn:import:com.google.gwt.widget.client">
 	<ui:style>
-		.panel {
-			background-color: ivory;
-		}
+	
+	
 	</ui:style>
 
-	<g:FlowPanel styleName="{style.panel}">
+	<g:FlowPanel>
 		<g:VerticalPanel height="186px" width="427px">
-			<g:Label text="New Label"/>
-			<g:Label text="New Label" ui:field="statusLabel"/>
+			<g:Label text="New Label" />
+			<g:Label text="New Label" ui:field="statusLabel" />
 			<g:HorizontalPanel height="51px" width="413px">
-				<g:CaptionPanel captionText="Hives" >
+				<g:CaptionPanel captionText="Hives">
 					<g:VerticalPanel>
-						<g:Hyperlink text="View Locations" targetHistoryToken="list"/>
-						<g:Hyperlink text="Create Location" targetHistoryToken="create"/>
+						<g:Hyperlink text="View Locations" targetHistoryToken="list" />
+						<g:Hyperlink text="Create Location"
+							targetHistoryToken="create" />
 					</g:VerticalPanel>
 				</g:CaptionPanel>
 				<g:DecoratorPanel>
 					<g:VerticalPanel height="129px">
 						<g:HorizontalPanel>
 							<g:VerticalPanel>
-								<g:HTML wordWrap="true">Location</g:HTML>						
-								<g:ListBox visibleItemCount="10" ui:field="LocationList"/>
-							</g:VerticalPanel>							
-							
-					
-						</g:HorizontalPanel>
-						
-						
-							<g:VerticalPanel>
-								<g:HorizontalPanel>
-									<g:HTML wordWrap="true">Hives</g:HTML>
-								</g:HorizontalPanel>
-								<g:HorizontalPanel>
-								<w:TextButton>Modify</w:TextButton>
-								<w:TextButton ui:field="deleteLocationButton">Delete</w:TextButton>	
-								
-								</g:HorizontalPanel>
-								<g:HTML wordWrap="true">Hives</g:HTML>
-								
-								
+								<g:HTML wordWrap="true">Location</g:HTML>
+								<g:ListBox visibleItemCount="10" ui:field="LocationList" />
 							</g:VerticalPanel>
-						
+
+
+						</g:HorizontalPanel>
+
+
+						<g:VerticalPanel>
+							<g:HorizontalPanel>
+								<g:HTML wordWrap="true">Hives</g:HTML>
+							</g:HorizontalPanel>
+							<g:HorizontalPanel>
+								<w:TextButton>Modify</w:TextButton>
+								<w:TextButton ui:field="deleteLocationButton">Delete</w:TextButton>
+
+							</g:HorizontalPanel>
+
+
+
+
+						</g:VerticalPanel>
+
 					</g:VerticalPanel>
 				</g:DecoratorPanel>
-				<g:HTMLPanel ui:field="TEMP"></g:HTMLPanel>
-				
+				<g:DecoratorPanel>
+					<g:HTMLPanel ui:field="TEMP"></g:HTMLPanel>
+				</g:DecoratorPanel>
+
 			</g:HorizontalPanel>
 		</g:VerticalPanel>
 		<g:SimplePanel>
 			<g:Grid width="100%" height="100%">
 				<g:row>
-					<g:customCell><g:Label text="Location Name"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="locationName"/></g:customCell>
+					<g:customCell>
+						<g:Label text="Location Name" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="locationName" />
+					</g:customCell>
 				</g:row>
 				<g:row>
-					<g:customCell><g:Label text="Region"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="region"/></g:customCell>
-				</g:row>				
-				<g:row>
-					<g:customCell><g:Label text="Street"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="street"/></g:customCell>
-				</g:row>	
-				<g:row>
-					<g:customCell><g:Label text="City"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="city"/></g:customCell>
+					<g:customCell>
+						<g:Label text="Region" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="region" />
+					</g:customCell>
 				</g:row>
 				<g:row>
-					<g:customCell><g:Label text="Post code"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="postCode"/></g:customCell>
+					<g:customCell>
+						<g:Label text="Street" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="street" />
+					</g:customCell>
 				</g:row>
-												<g:row>
-					<g:customCell><g:Label text="Country"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="Country"/></g:customCell>
-				</g:row>	
-																<g:row>
-					<g:customCell><g:Label text="Longitude"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="longitude"/></g:customCell>
-				</g:row>	
-																				<g:row>
-					<g:customCell><g:Label text="Latitude"/></g:customCell>
-					<g:customCell><g:TextBox ui:field="latitude"/></g:customCell>
+				<g:row>
+					<g:customCell>
+						<g:Label text="City" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="city" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Post code" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="postCode" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Country" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="Country" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Longitude" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="longitude" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Latitude" />
+					</g:customCell>
+					<g:customCell>
+						<g:TextBox ui:field="latitude" />
+					</g:customCell>
 				</g:row>
 			</g:Grid>
 		</g:SimplePanel>
-		<w:TextButton text="Create Location" value="CreateLocation" ui:field="CreateLocationButton">New button</w:TextButton>
+		<w:TextButton text="Create Location" value="CreateLocation"
+			ui:field="CreateLocationButton">New button</w:TextButton>
 	</g:FlowPanel>
 </ui:UiBinder>

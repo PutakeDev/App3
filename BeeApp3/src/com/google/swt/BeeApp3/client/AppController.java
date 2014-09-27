@@ -17,6 +17,7 @@ import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 import com.google.swt.BeeApp3.client.Presenter.Presenter;
 import com.google.swt.BeeApp3.client.event.LocationAddEvent;
 import com.google.swt.BeeApp3.client.event.LocationAddEventHandler;
+import com.google.swt.BeeApp3.client.view.Location.LocationView;
 import com.google.swt.BeeApp3.client.view.Location.LocationViewImpl;
 import com.google.swt.BeeApp3.shared.model.Location;
 
@@ -25,7 +26,8 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 	private HasWidgets currentContainer;
 	private final HandlerManager eventBus;
 	private final ApiAsync hiveApi;
-	private LocationViewImpl<Location> locationView = null;
+	private LocationPresenter locationPresenter;
+//	private LocationViewImpl locationView;
 	// private Composite company;
 	// private Composite apiary;
 	// private Composite hive;
@@ -39,10 +41,17 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 	{
 		this.hiveApi = hiveApi;
 		this.eventBus = eventBus;
+		this.initLocationViews();
 		bind();
 		// mainTabLayout();
 	}
 
+	private void initLocationViews()
+	{
+		LocationViewImpl locationView = new LocationViewImpl<Location>();
+		this.locationPresenter = new LocationPresenter(hiveApi, eventBus, locationView);
+	}
+	
 	private void bind()
 	{
 		History.addValueChangeHandler(this);
@@ -68,7 +77,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		this.currentContainer = container;
 		if ("".equals(History.getToken()))
 		{
-			History.newItem("list");
+			History.newItem("Location");
 		}
 		else
 		{
@@ -88,11 +97,11 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		// this.dashboard = new HiveView();
 		// this.other = new SampleViewImpl();
 		// this.location = new LocationViewImpl<Location>();
-		this.locationView = new LocationViewImpl<Location>();
+		//this.locationView = new LocationViewImpl<Location>();
 		// this.hive = new HiveMainView();
 		// tabPanel.add(this.dashboard,"Dashboard");
 		// tabPanel.add(this.company,"Company");
-		tabPanel.add(this.locationView, "Location");
+		//tabPanel.add(this.locationView, "Location");
 		// tabPanel.add(this.apiary,"Apiary");
 		// tabPanel.add(this.hive,"Hive");
 		// tabPanel.add(this.colony,"Colony");
@@ -115,7 +124,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 		String token = event.getValue();
 		if (token != null)
 		{
-			if (token.equals("list"))
+			if (token.equals("Location"))
 			{
 				GWT.runAsync(new RunAsyncCallback()
 				{
@@ -127,15 +136,7 @@ public class AppController implements Presenter, ValueChangeHandler<String>
 					@Override
 					public void onSuccess()
 					{
-						// lazily initialize our views, and keep them around to
-						// be reused
-						//
-						if (locationView == null)
-						{
-							locationView = new LocationViewImpl<Location>();
-						}
-						new LocationPresenter(hiveApi, eventBus, locationView)
-								.go(currentContainer);
+						locationPresenter.go(currentContainer);
 					}
 				});
 			}

@@ -28,7 +28,14 @@ public LocationDetailsViewPresenter(ApiAsync api, HandlerManager eventBus,
 public void go(HasWidgets container)
 {
 	// TODO Auto-generated method stub
-	
 }
+
+public void setCurrentLocation(Location l)
+{
+	this.view.setLocationName(l.getLocationName());
+	this.view.setLocationRegion(l.getRegion());
+	this.view.setLocationStreet(l.getStreet());
+}
+
 
 }

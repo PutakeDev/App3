@@ -4051,3 +4051,604 @@ Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationV
    Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
       [ERROR] Unexpected text in element: "asdf": <g:DecoratorPanel ui:field='TEMP'> (:49)
 [ERROR] Deferred binding failed for 'com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   0% complete (ETR: 66 seconds)
+   10% complete (ETR: 61 seconds)
+   20% complete (ETR: 37 seconds)
+   30% complete (ETR: 26 seconds)
+   40% complete (ETR: 21 seconds)
+   50% complete (ETR: 16 seconds)
+   60% complete (ETR: 11 seconds)
+   70% complete (ETR: 7 seconds)
+   80% complete (ETR: 5 seconds)
+   90% complete (ETR: 2 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 30.08 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2804 units from cache.
+Compiling...
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 11.70 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 63: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.12 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813016267.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813016267.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813016267_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method buttonCellBaseBackground
+         Adding image 'com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources.buttonCellBaseBackground'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.19 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+         Generating method body for iconContentLayout()
+         Generating method body for iconWrapper()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.13 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813019361.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813019361.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813019361_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813071005.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813071005.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813071005_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120294.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120294.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120294_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120670.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120670.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813120670_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813122115.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813122115.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.12 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813122115_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.16 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813147415.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813147415.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411813147415_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2804 cached/archived units.  Used 2804 / 2804 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 63: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815045995_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815046528_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815062033_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815063501_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815098486_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815098677_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815116773_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815125738_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815139151_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815156678_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2801 cached/archived units.  Used 2801 / 2804 units from cache.
+Compiling...
+   Compilation completed in 0.02 seconds
+Invalid Unit: com.google.swt.BeeApp3.client.view.Location.LocationView
+Invalid Unit: com.google.swt.BeeApp3.client.view.Location.LocationViewImpl
+Invalid Unit: com.google.swt.BeeApp3.client.Presenter.LocationPresenter
+Invalid units found: 3
+Compiling...
+   Compilation completed in 0.02 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 63: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815419207.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815419207.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815419207_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method buttonCellBaseBackground
+         Adding image 'com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Resources.buttonCellBaseBackground'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.cell.client.ButtonCellBase.DefaultAppearance.Template
+         Generating method body for iconContentLayout()
+         Generating method body for iconWrapper()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.resources.client.CommonResources.Bundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815420853.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815420853.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815420853_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815439365.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815439365.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815439365_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl.LocationViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815465037.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815465037.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationViewImpl_LocationViewUiBinderImpl_designTime1411815465037_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2802 cached/archived units.  Used 2802 / 2804 units from cache.
+Compiling...
+   Compilation completed in 0.02 seconds
+Invalid Unit: com.google.swt.BeeApp3.client.AppController
+Invalid units found: 1
+Compiling...
+   Compilation completed in 0.06 seconds
+Validating units:
+   Errors in 'file:/D:/Coding/BeeApp3/BeeApp3/src/com/google/swt/BeeApp3/shared/model/Colony.java'
+      Line 63: No source code is available for type com.google.swt.BeeApp3.server.DateHelper; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815733822_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815734523_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815750950_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl.LocationDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding com.google.swt.BeeApp3.client.view.Location.LocationDetailsViewImpl_LocationDetailsViewUiBinderImpl_designTime1411815769028_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units

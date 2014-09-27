@@ -17,6 +17,7 @@ import com.google.gwt.widget.client.TextButton;
 import com.google.swt.BeeApp3.client.Presenter.LocationPresenter;
 import com.google.swt.BeeApp3.client.event.LocationAddEvent;
 import com.google.swt.BeeApp3.shared.model.Location;
+import com.google.gwt.event.dom.client.KeyPressEvent;
 
 public class LocationViewImpl<T> extends Composite implements LocationView<T>
 
@@ -124,13 +125,28 @@ public class LocationViewImpl<T> extends Composite implements LocationView<T>
 			presenter.deleteLocation(l);
 		}
 	}
+
 	@Override
 	public void setLocationDetailsView(
 			LocationDetailsView<Location> l)
 	{
 		// TODO Auto-generated method stub
-		
+
 		this.TEMP.add(l.asWidget());
-		
+
+	}
+
+	@UiHandler("LocationList")
+	void onLocationListClick(ClickEvent event)
+	{
+		Location l = this.rowData[this.LocationList.getSelectedIndex()];
+		presenter.onItemClicked(l);
+	}
+
+	@UiHandler("LocationList")
+	void onLocationListKeyPress(KeyPressEvent event)
+	{
+		Location l = this.rowData[this.LocationList.getSelectedIndex()];
+		presenter.onItemClicked(l);
 	}
 }
